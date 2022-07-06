@@ -92,105 +92,102 @@ color: #707070;
 margin-bottom: 40px; 
 }
 
-.donation-description{
-     
-    background: #FAFAFA;
-    border-radius: 5px;
+/*.......card section.....*/
+
+    .donation-description{
+    justify-content: center;
+    text-align: center;
     display: flex;
     justify-content:space-between;
     padding-left: 150px;
     padding-right: 200px;
     padding-bottom: 200px;
 }
+  /*.....card alignment......*/
+    .card1 h2 {
+    padding: 30px;
+    display: flex;
+}
+
+    .card2 h2 {
+    padding: 30px;
+    display: flex;
+}
+
+    .card3 h2 {
+    padding: 30px;
+    display: flex;
+}
+
+    .card4 h2 {
+    padding: 30px;
+    display: flex;
+}
+
+    .card5 h2 {
+    padding: 30px;
+    display: flex;
+}
+ /*.....card alignment finished......*/
 
 
-.card1 {
-    background: #FAFAFA;
+ /*.....card box started......*/
+    .card1 {
+    border: 0.5px solid #6a6969;
     border-radius: 5px;
-    font-family: 'Inter';
-    font-style: normal;
+    font-family: 'Inter';  
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
-    text-align: center;
     color: #707070;
-    width: 136px;
-    height: 123px;
   }
 
 
    .card2 {
-    background: #FFEEEE;
     border: 2px solid #FF5959;
+    background: #FFEEEE;
     border-radius: 5px;
-    font-family: 'Inter';
-    font-style: normal;
+    font-family: 'Inter';  
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
-    text-align: center;
     color: #707070;
-    width: 136px;
-    height: 123px;
-
    }
-.card3 {
-    background: #FAFAFA;
+    .card3 {
+    border: 0.5px solid #6a6969;
     border-radius: 5px;
-    font-family: 'Inter';
-    font-style: normal;
+    font-family: 'Inter';  
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
-    text-align: center;
     color: #707070;
-    width: 136px;
-    height: 123px;
-
    }
 
    .card4 {
-    background: #FAFAFA;
+    border: 0.5px solid #6a6969;
     border-radius: 5px;
-    font-family: 'Inter';
-    font-style: normal;
+    font-family: 'Inter';  
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
-    text-align: center;
     color: #707070;
-    width: 136px;
-    height: 123px;
-
    }
 
    .card5 {
-    background: #FAFAFA;
+    border: 0.5px solid #6a6969;
     border-radius: 5px;
-    font-family: 'Inter';
-    font-style: normal;
+    font-family: 'Inter';  
     font-weight: 700;
     font-size: 18px;
-    line-height: 36px;
-    text-align: center;
     color: #707070;
-    width: 136px;
-    height: 123px;
-
    }
+   /*.....card box finished......*/
 
-
-   .transition{
-    text-align: center;
-   }
+/*.....Donation From......*/
 
    .inp {
     border:none;
     border-bottom: 2px solid #1890ff;
-    padding: 3px 250px;
+    padding: 3px 200px;
     outline: none;
-    text-align:right;
-    align-items: center;
+    text-align:center;
+    
  }
 
  .donation-transition-from{
@@ -203,25 +200,28 @@ margin-bottom: 40px;
     gap: 8px;
  }
 
-
- .button-2 a{
-    display: flex;
+ .btn{
+    text-align: center;
     text-decoration: none;
     padding: 50px 48px;
     justify-content: center;
     padding: 13px 36px;
     background-color: #FF5959;
-    
  }
 
+
+
  /*....3rd section...*/
+
+
+ 
 .details{
     text-align: center;
     font-size: 20px;
     color: #1890ff;
+    justify-content: center;
+    padding-top: 2px;
 }
-
-
 
  .middle-title{
     text-align: center;
@@ -229,16 +229,36 @@ margin-bottom: 40px;
     font-size: 65px;
 }
 
-
  .secction-3{
     margin-top: 50px;
+    padding: 100px;
+    display: flex;
+    justify-content: space-evenly;
+
  }
 
  .discription{
+    margin-bottom: 30px;
     margin-top: 50px;
     width: 300px;
     height: 280px;
     border: 1px solid gray;
+    background: rgba(79, 157, 166, 0.1);
+    border-radius: 5px;
+   
  }
-  
  
+.icon{
+    position: left;
+   width: 58.13px;
+    height: 49.77px;
+    left: 180px;
+    top: 1659px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.card-discription h3{
+    padding-left: 10px;
+}.card-discription p{
+    padding-left: 10px;
+}
