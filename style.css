@@ -89,64 +89,88 @@ margin-bottom: 40px;
 }
 
 .donation-description{
-    margin-top: 70px;
-    padding-left: 200px;
+     
+    background: #FAFAFA;
+    border-radius: 5px;
+    display: flex;
+    justify-content:space-between;
+    padding-left: 150px;
+    padding-right: 200px;
+    padding-bottom: 200px;
 }
 
 
 .card1 {
-    
+    background: #FAFAFA;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
     text-align: center;
     color: #707070;
-    width: 150px;
-    height: 75px;
-    border: 2px solid rgb(4, 98, 138);
-    box-shadow: 8px 8px 16px grey;
-   }
+    width: 136px;
+    height: 123px;
+  }
 
-
-   .card1 {
-    text-align: center;
-    color: #707070;
-    width: 150px;
-    height: 75px;
-    border: 2px solid rgb(4, 98, 138);
-    box-shadow: 8px 8px 16px grey;
-    
-   }
 
    .card2 {
+    background: #FFEEEE;
+    border: 2px solid #FF5959;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
     text-align: center;
     color: #707070;
-    width: 150px;
-    height: 75px;
-    border: 2px solid rgb(4, 98, 138);
-    box-shadow: 8px 8px 16px grey;
-   }
+    width: 136px;
+    height: 123px;
 
-   .card3 {
+   }
+.card3 {
+    background: #FAFAFA;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
     text-align: center;
     color: #707070;
-    width: 150px;
-    height: 75px;
-    border: 2px solid rgb(4, 98, 138);
-    box-shadow: 8px 8px 16px grey;
+    width: 136px;
+    height: 123px;
+
    }
 
    .card4 {
+    background: #FAFAFA;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
     text-align: center;
     color: #707070;
-    width: 150px;
-    height: 75px;
-    border: 2px solid rgb(4, 98, 138);
-    box-shadow: 8px 8px 16px grey;
+    width: 136px;
+    height: 123px;
+
    }
 
    .card5 {
+    background: #FAFAFA;
+    border-radius: 5px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
     text-align: center;
     color: #707070;
-    width: 150px;
-    height: 75px;
-    border: 2px solid rgb(4, 98, 138);
-    box-shadow: 8px 8px 16px grey;
+    width: 136px;
+    height: 123px;
+
    }
