@@ -6,7 +6,7 @@
 /*......Home.......*/
 #home{
     
-    background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)), url(./images/donation4.jpg);
+    background-image: linear-gradient(rgba(9, 5, 54, 0.3), rgba(5, 4, 46, 0.7)), url(./images/donation9.jpg);
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -198,27 +198,29 @@ margin-bottom: 40px;
     padding: 16px 12px;
     padding-top: 20px;padding-bottom: 20px;
     gap: 8px;
+    
  }
 
  .btn{
-    text-align: center;
-    text-decoration: none;
-    padding: 50px 48px;
-    justify-content: center;
-    padding: 13px 36px;
+    position: relative;
+    top: 50%;
+    left: 40%;
+    
+    width: 170px;
+    border-radius: 8px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+   text-align: center;
     background-color: #FF5959;
  }
 
 
 
- /*....3rd section...*/
-
-
- 
+ /*....3rd section heading...*/
 .details{
     text-align: center;
     font-size: 20px;
-    color: #1890ff;
+    color: #4d4e4f;
     justify-content: center;
     padding-top: 2px;
 }
@@ -228,37 +230,217 @@ margin-bottom: 40px;
     font-weight: bold;
     font-size: 65px;
 }
+ /*....3rd section heading end...*/
 
- .secction-3{
+
+  /*....3rd box model and content start...*/
+
+ .box1 {
+    width: 300px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 5px;
+    margin-top: 20px;
+    background: rgba(5, 102, 111, 0.1);
+}
+
+.icon img {
+    width: 5px;
+    align-items: flex-start;
+
+}
+/* content style  */
+.package-description {
+    
     margin-top: 50px;
-    padding: 100px;
     display: flex;
     justify-content: space-evenly;
+    padding: 10px;
+    flex-wrap: wrap;
+}
 
- }
-
- .discription{
-    margin-bottom: 30px;
-    margin-top: 50px;
-    width: 300px;
-    height: 280px;
+.box2 {
+    width: 270px;
+    text-align: center;
+    margin: 0 auto;
     border: 1px solid gray;
-    background: rgba(79, 157, 166, 0.1);
+    padding: 25px;
+
     border-radius: 5px;
+    margin-top: 20px;
+    transition: .8ms;
+    background: rgba(255, 89, 89, 0.1);
+    border-radius: 5px;
+
+}
+
+
+.package-descript-text {
+    text-align: justify
+}
+
+.icon img {
+    width: 70px;
+    
+
+}
+/* content style  */
+.package-description {
+
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.title2 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+
+
+.box3 {
+    width: 270px;
+    text-align: center;
+    margin: 0 auto;
+    border: 1px solid gray;
+    padding: 25px;
+
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: .8ms;
+    background: #FFF4D6;
+    border-radius: 5px;
+
+}
+
+
+.package-descript-text {
+    text-align: justify
+}
+
+.icon img {
+    width: 70px;
+
+}
+/* content style  */
+.package-description {
+
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.title2 {
+    font-size: 50px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+/*.....testing....*/
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+    
+}
+
+h1{
+    font-size: 50px;
+}
+.name-color{
+    color: darkorange;
+}
+.flaxible-container{
+    display: flex;
+    margin-bottom: 200px;
    
+}
+.half-width{
+    width: 50%;
+    padding: 2%;
+}
+.half-width img{
+    width: 80%;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(darkorange, rgb(185, 49, 49));
+    background-color: darkorange;
+    color: rgb(255, 255, 255);
+    font-weight: 700;
+    padding: 10px 40px;
+    border-radius: 8px;
+    
+}
+.top-banner{
+ background-image: url(images/top-banner.png); 
+ background-repeat: no-repeat;  
+}
+
+/*...teste...*/
+
+
+/*....email.....*/
+.mail-box{
+
+    position: relative;
+    top: 50%;
+    left: 25%;
+    width: 500px;
+    text-align: center;
+    background: #FFF4D6;
+    padding: 50px;
+}
+
+.mail-box input{
+    font: size 18px; 
+    width: 60%;
+    border: none;
+    padding: 15px 20px;
+    background: #D9D9D9;
+    border-radius: 5px 0px 0px 5px;
+
+}
+.mail-box button{
+    font-size: 18px;
+    color: lavender;
+    border: none;
+    padding: 15px 20px;
+    background: #FF5959;
+    border-radius: 0px 5px 5px 0px;
+
+}
+/*....mail secton complete....*/
+
+
+.updates{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/*.....Footer section....*/
+
+footer{
+    background: #0B0D17;
+    margin-top: 50px;
+}
+
+.footer-content{
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #FF5959;
+    line-height: normal;
+    }
+ .footer-content h3{
+    color: #D9DBE1;
+
+
  }
- 
-.icon{
-    position: left;
-   width: 58.13px;
-    height: 49.77px;
-    left: 180px;
-    top: 1659px;
-    padding-left: 10px;
-    padding-top: 10px;
-}
-.card-discription h3{
-    padding-left: 10px;
-}.card-discription p{
-    padding-left: 10px;
-}
